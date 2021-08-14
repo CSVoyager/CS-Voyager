@@ -248,7 +248,7 @@ year_element.innerHTML=year_abs;
 
 
 //TIMER CODE
-var countDownDate = new Date("Aug,14 2021 13:05:00").getTime();
+var countDownDate = new Date("Aug,14 2021 13:20:00").getTime();
 var timer_ele = document.getElementById("timer");
 var status_h = document.getElementById("status-head");
 var anchor = document.getElementById("status-anchor");
@@ -278,8 +278,8 @@ var x = setInterval(function() {
     clearInterval(x);
     timer_ele.style.display = "none";
     status_h.innerHTML="Released";
-    anchor.href="edition1.html";
-    img_ele.src = "img\/newletter.jpg"
+    anchor.href="portfolio-details.html";
+    img_ele.src = "img\/1.jpg"
 
 
 
