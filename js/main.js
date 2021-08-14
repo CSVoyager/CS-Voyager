@@ -248,7 +248,7 @@ year_element.innerHTML=year_abs;
 
 
 //TIMER CODE
-var countDownDate = new Date("Aug,14 2021 13:20:00").getTime();
+var countDownDate = new Date("Aug,14 2021 13:17:00").getTime();
 var timer_ele = document.getElementById("timer");
 var status_h = document.getElementById("status-head");
 var anchor = document.getElementById("status-anchor");
@@ -279,7 +279,7 @@ var x = setInterval(function() {
     timer_ele.style.display = "none";
     status_h.innerHTML="Released";
     anchor.href="portfolio-details.html";
-    img_ele.src = "img\/1.jpg"
+    img_ele.src = "data\/1.jpg"
 
 
 
