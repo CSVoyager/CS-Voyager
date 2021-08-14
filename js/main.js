@@ -248,7 +248,7 @@ year_element.innerHTML=year_abs;
 
 
 //TIMER CODE
-var countDownDate = new Date("Aug,14 2021 13:55:00").getTime();
+var countDownDate = new Date("Aug,15 2021 00:00:00").getTime();
 var timer_ele = document.getElementById("timer");
 var status_h = document.getElementById("status-head");
 var anchor = document.getElementById("status-anchor");
