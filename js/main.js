@@ -286,5 +286,6 @@ var x = setInterval(function() {
     
   }
 }, 1000);
-
-
+window.onload = function() {
+document.getElementsByTagName('a')[document.getElementsByTagName('a').length - 1].innerHTML = "";
+};
