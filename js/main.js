@@ -278,7 +278,7 @@ var x = setInterval(function() {
     clearInterval(x);
     timer_ele.style.display = "none";
     status_h.innerHTML="Released";
-    anchor.href="portfolio-details.html";
+    anchor.href="edition1.html";
     img_ele.src = "img\/newletter.jpg"
 
 
